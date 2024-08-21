@@ -1,0 +1,41 @@
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 400px;
+    width: 23%;
+    border: 5px solid rgba(218, 138, 35, 0.526);
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.imagediv{
+    margin: 1rem;
+    height: 80%;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/photoframe.jpg");
+    background-size: cover;
+}
+.imagediv2{
+    margin: 1rem;
+    height: 80%;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/box2_beauty.jpg");
+    background-size: cover;
+}
+
+.imagediv3{
+    margin: 1rem;
+    height: 80%;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/home_decor_box3.jpg");
+    background-size: cover;
+}
+.imagediv4{
+    margin: 1rem;
+    height: 80%;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/box4\ _personal_computers.jpg");
+    background-size: cover;
+}
+.seeMore{
+    color: #0f1d2f;
+}

@@ -1,0 +1,176 @@
+body {
+    background-color: antiquewhite;
+    animation: backAnimation 2s ease-in-out 0s infinite both alternate-reverse;
+}
+
+@keyframes backAnimation {
+    from {
+        background-color:antiquewhite;
+    }
+
+    to {
+        background-color: bisque;
+    }
+}
+
+.Line-Through{
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    background-color: #0f1d2f;
+    align-items: center;
+}
+.menu-icon
+{
+    margin-left: 12px;
+    align-items: center;
+    color: aliceblue;
+}
+.shopdeals{
+    margin-left: 60rem;
+}
+h2{
+    margin: 12px;
+    font-size: large;
+    color: antiquewhite;
+}
+.mainsection {
+    height: 35rem;
+    width: 100%;
+    background: transparent;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_01_amazon.jpg");
+    background-size: cover;
+    animation: pictures 10s ease-in infinite forwards normal;
+    border-radius: 5px;
+
+}
+
+@keyframes pictures {
+    0% {
+        background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_01_amazon.jpg");
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_02_amazon_beauty.jpg");
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_03_amazon_kitchen.jpg");
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_04_amazon_electronics.jpg");
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/_05_amazon_shops.jpg");
+        background-size: cover;
+    }
+}
+
+.products {
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 2rem; */
+    /* padding: 1rem; */
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: antiquewhite;
+}
+
+.image1 {
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/cpu.jpg");
+    background-size: cover;
+}
+
+
+.image2 {
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/handsets.jpg");
+    background-size: cover;
+}
+
+
+
+.image3{
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/chairs.jpg");
+    background-size: cover;
+}
+
+.image4{
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/lamp.jpg");
+    background-size: cover;
+}
+
+
+.image5{
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/keybord.jpg");
+    background-size: cover;
+}
+
+
+.image6{
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/mouse.jpg");
+    background-size: cover;
+}
+
+.image7{
+    height: 20rem;
+    width: 22rem;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/photoframe.jpg");
+    background-size: cover;
+}
+
+
+.infoproduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals {
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+.nav_Line
+{
+
+    text-align: center;
+   position: absolute;
+    bottom: 20.54rem;
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(250, 255, 151, 0.758);
+    /* left: 22rem; */
+}
+#paraOne{
+    font-size: larger;
+}

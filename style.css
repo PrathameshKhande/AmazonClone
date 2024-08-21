@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar
+{
+    height: 80px;
+    background-color: #0f1111;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    height: 60px;
+    width:100%;
+    background-image: url("/WEB_D/first/PRACTICE$/Project_HTML_CSS_Amazon/amazon-dark-logo.png");
+    background-size: cover;
+}
+.border
+{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-iocn{
+    display: flex;
+    justify-content: space-around;
+}
+.selectAndsearch{
+    display: flex;
+    width:860px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 50px;
+    background-color: rgb(245, 182, 66);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    color: #0f1111;
+}
+.select-search
+{
+    background-color: rgb(251, 240, 226);
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px;
+    border: none;
+ 
+}
+.searchClass
+{
+    width: 100%;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.languageDiv
+{
+    /* height: 30px;
+    width: 120px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(72, 140, 200); */
+    border-radius: 4px;
+    
+}
+/* .lang-cion{
+    display: flex;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    font-size: 1.2rem;
+}
+.selectLang{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+} */
+.add-one{
+    font-size: 1rem;
+}
+.add-sec{
+    font-size: 1.2rem;
+}
+span{
+    font-size: 0.75rem;
+}
+.border1
+{
+    border: 1.5px solid transparent;
+}
+.border1:hover{
+    border: 3px solid rgb(254, 175, 6);
+}
